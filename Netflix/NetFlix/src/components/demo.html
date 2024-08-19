@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function bodyLoad(){
+            var categories = ['All','Electronics','FootWear','Fashion'];
+
+            categories.map(function(category){
+                var li = document.createElement("li");
+                li.innerHTML = category;
+                document.querySelector("ol").appendChild(li);
+
+                var option = document.createElement("option");
+                option.text = category;
+                option.value = category;
+                document.querySelector("select").appendChild(option);
+})
+        }
+    </script>
+</head>
+<body onload= "bodyLoad()">
+    
+    <ol>
+        <select>
+
+        </select>
+    </ol>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The forEach() Method</h2>
+
+<p>Call a function once for each array element:</p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.map(myFunction);
+document.querySelector("demo").innerHTML = txt;
+
+function myFunction(value, index, array) {
+  txt += value + "<br>"; 
+}
+</script>
+
+</body>
+</html>

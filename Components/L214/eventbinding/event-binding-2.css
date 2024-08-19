@@ -1,0 +1,33 @@
+nav img {
+    border: none;
+}
+
+nav img :hover{
+    border:2px solid blue;
+}
+
+main img:hover {
+     transform:scale(1.5);
+     -webkit-transform:scale(1.5);
+     -moz-transform:scale(1.5);
+     -ms-transform:scale(1.5);
+     -o-transform:scale(1.5);
+     transition: 2s;
+     -webkit-transition: 2s;
+     -moz-transition: 2s;
+     -ms-transition: 2s;
+     -o-transition: 2s;
+}
+
+main img{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}

@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 400px;
+}
+
+.main-title {
+    padding-top: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-subtitle {
+    padding: 10px 0px 10px 0px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+}
